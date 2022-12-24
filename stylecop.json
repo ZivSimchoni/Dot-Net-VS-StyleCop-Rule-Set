@@ -1,37 +1,32 @@
 ﻿{
-  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
-    "settings": {
-        "documentationRules": {
-            "companyName": "DN-VS",
-            "copyrightText": "No Copyright, No rights reserved.",
-            "xmlHeader": false,
-            "headerDecoration": "-----------------------------------------------------------------------",
-            "variables": {
-                "licenseName" : null,
-                "licenseFile" : null
-            }
-        },
-        "orderingRules": {
-            "usingDirectivesPlacement": "outsideNamespace",
-            "elementOrder": [
-                "kind",
-                "constant",
-                "static",
-                "readonly"
-              ]
-        },
-        "layoutRules": {
-            "newlineAtEndOfFile": "omit",
-            "allowConsecutiveUsings" : "false"
-        },
-        "indentation": {
-            "indentationSize": 4,
-            "tabSize": 4,
-            "useTabs": false
-        },
-        "namingRules": {
-            "includeInferredTupleElementNames": true,
-            "tupleElementNameCasing": "camelCase"
-        }
-    }
+	"$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+	"settings": {
+		"documentationRules": {
+			"companyName": "DN-VS",
+			"copyrightText": "No Copyright, No rights reserved.",
+			"xmlHeader": false,
+			"headerDecoration": "-----------------------------------------------------------------------",
+			"variables": {
+				"licenseName": null,
+				"licenseFile": null
+			}
+		},
+		"orderingRules": {
+			"usingDirectivesPlacement": "outsideNamespace",
+			"elementOrder": ["kind", "constant", "static", "readonly"]
+		},
+		"layoutRules": {
+			"newlineAtEndOfFile": "omit",
+			"allowConsecutiveUsings": "false"
+		},
+		"indentation": {
+			"indentationSize": 4,
+			"tabSize": 4,
+			"useTabs": false
+		},
+		"namingRules": {
+			"includeInferredTupleElementNames": true,
+			"tupleElementNameCasing": "camelCase"
+		}
+	}
 }
